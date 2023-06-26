@@ -1,0 +1,34 @@
+.Header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Header__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 0 8px 0;
+}
+
+.Header__logo > img {
+    width: 28px;
+}
+
+.Header__logo > a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+.Header__logo > a:hover {
+    color: rgb(0, 243, 243);
+    text-shadow: 0 0 8px rgb(0, 243, 243);
+}
+
+.Header__copyright {
+
+}
