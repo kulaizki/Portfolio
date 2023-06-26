@@ -26,9 +26,5 @@
 
 .Header__logo > a:hover {
     color: rgb(0, 243, 243);
-    text-shadow: 0 0 8px rgb(0, 243, 243);
-}
-
-.Header__copyright {
-
+    text-shadow: 0 0 16px rgb(0, 243, 243);
 }
