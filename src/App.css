@@ -4,16 +4,7 @@
   overflow-x: hidden;
 }
 
-
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+hr {
+  border-color: rgb(31, 30, 30);
+  box-shadow: 0 0 8px rgb(255, 255, 255);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */

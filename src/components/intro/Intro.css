@@ -27,6 +27,7 @@
 
 .Intro__underline__animation__1:hover {
     text-shadow: 0 0 8px var(--tertiary);
+    cursor: pointer;
 }
 
 .Intro__underline__animation__1::after {
@@ -37,6 +38,7 @@
     position: relative;
     color: rgb(247, 210, 0);
     text-shadow: 0 0 8px var(--primary-alt);
+    cursor: pointer;
 }
 
 .Intro__underline__animation__2::after {
@@ -49,6 +51,7 @@
 
 .Intro__underline__animation__3:hover {
     text-shadow: 0 0 8px var(--secondary);
+    cursor: pointer;
 }
 
 .Intro__underline__animation__3::after {
