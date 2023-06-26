@@ -6,7 +6,7 @@
 
 :root {
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -17,6 +17,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --text: rgb(240, 236, 236);
+  --subtext: rgb(51, 51, 51);
+  --background-text: rgb(12, 12, 12);
+  --background: #131313;
+  --primary: rgb(247, 210, 0);
+  --primary-alt: rgb(224, 190, 2);
+  --secondary: #00f2ff;
+  --tertiary: #77ed09;
 }
 
 * {

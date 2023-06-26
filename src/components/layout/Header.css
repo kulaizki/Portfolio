@@ -25,6 +25,19 @@
 }
 
 .Header__logo > a:hover {
-    color: rgb(0, 243, 243);
-    text-shadow: 0 0 16px rgb(0, 243, 243);
+    color: var(--primary);
+    text-shadow: 0 0 16px var(--primary-alt);
 }
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */

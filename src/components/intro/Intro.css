@@ -1,0 +1,66 @@
+.Intro {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 64px 0 64px 0;
+}
+
+.Intro__text p {
+    font-size: 32px;
+}
+
+
+
+.Intro__img > img {
+    width: 48rem;
+}
+
+.Intro__text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 32px 0 0;
+}
+
+.Intro__underline__animation__1 {
+    position: relative;
+    font-family: monospace;
+}
+
+.Intro__underline__animation__1::after {
+    background: var(--tertiary);
+}
+
+.Intro__underline__animation__2 {
+    position: relative;
+    color: rgb(247, 210, 0);
+    text-shadow: 0 0 8px var(--primary-alt);
+}
+
+.Intro__underline__animation__2::after {
+    background: var(--primary-alt);
+}
+
+.Intro__underline__animation__3 {
+    position: relative;
+}
+
+.Intro__underline__animation__3::after {
+    background: var(--secondary);
+}
+
+.Intro__underline__animation__1::after, .Intro__underline__animation__2::after, .Intro__underline__animation__3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+.Intro__underline__animation__1:hover::after, .Intro__underline__animation__2:hover::after, .Intro__underline__animation__3:hover::after {
+  transform: scaleX(1);
+}

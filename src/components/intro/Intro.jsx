@@ -1,0 +1,29 @@
+import "./Intro.css";
+
+function Intro() {
+  return (
+    <div className="Intro">
+      <div className="Intro__img">
+        <img src="./src/assets/intro-img.png" alt="" />
+      </div>
+      <div className="Intro__text">
+        <h2>
+          <span className="Intro__underline__animation__1">Hello World!</span>
+        </h2>
+        <h1>
+          I am{" "}
+          <span className="Intro__underline__animation__2">Fitz Angelo</span>.
+        </h1>
+        <p>
+          A curious and enthusiastic individual who aspires to become a{" "}
+          <span className="Intro__underline__animation__3">
+            software engineer
+          </span>
+          .
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default Intro;

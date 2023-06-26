@@ -1,18 +1,15 @@
-import './Header.css';
+import "./Header.css";
 
 function Header() {
-
   return (
-    <header className='Header'>
+    <header className="Header">
       <h1 className="Header__logo">
-        <img src="./public/diamond-logo.png" alt="" />
+        <img src="./public/yellow-diamond.png" alt="" />
         <a href="#">Portfolio</a>
       </h1>
-      <div className="Header__copyright">
-        Fitz Angelo&nbsp;2023&nbsp;&copy;
-      </div>
+      <div className="Header__copyright">Fitz Angelo&nbsp;2023&nbsp;&copy;</div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

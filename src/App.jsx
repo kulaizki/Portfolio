@@ -1,14 +1,15 @@
 import './App.css';
 import Header from './components/layout/Header';
+import Intro from './components/intro/Intro';
 
 function App() {
-
   return (
     <div className="App">
       <Header />
       <hr />
       <main className="Main">
-        <h1>Fitz Angelo</h1>
+        <Intro />
+        <hr />
       </main>
     </div>
   )
