@@ -15,7 +15,7 @@ function Intro() {
           <span className="Intro__underline__animation__2">Fitz Angelo</span>.
         </h1>
         <p>
-          A curious and enthusiastic individual who aspires to become a{" "}
+          A curious and enthusiastic student who aspires to become a{" "}
           <span className="Intro__underline__animation__3">
             software engineer
           </span>
