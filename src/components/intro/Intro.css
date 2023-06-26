@@ -25,6 +25,10 @@
     font-family: monospace;
 }
 
+.Intro__underline__animation__1:hover {
+    text-shadow: 0 0 8px var(--tertiary);
+}
+
 .Intro__underline__animation__1::after {
     background: var(--tertiary);
 }
@@ -41,6 +45,10 @@
 
 .Intro__underline__animation__3 {
     position: relative;
+}
+
+.Intro__underline__animation__3:hover {
+    text-shadow: 0 0 8px var(--secondary);
 }
 
 .Intro__underline__animation__3::after {

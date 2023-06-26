@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <hr />
+      <hr style={{ borderColor: 'yellow' }}/>
       <main className="Main">
         <Intro />
-        <hr />
+        <hr style={{ borderColor: 'yellow' }}/>
       </main>
     </div>
   )
