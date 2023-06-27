@@ -30,7 +30,7 @@ function Skills() {
           link="https://github.com/kulaizki/Codeforces"
         />
         <InfoCard
-          img="./landing-page.png"
+          img="./izk-landing-page.png"
           title="Web Development"
           description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
           link="https://github.com/kulaizki?tab=repositories"
