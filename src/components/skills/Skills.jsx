@@ -38,13 +38,13 @@ function Skills() {
         <InfoCard
           img="./src/assets/harmonic-chart.png"
           title="Trading / Investments"
-          description="As an avid learner, I actively study and practice trading and investments, fueling my passion for the finance industry."
+          description="As an enthusiastic and determined learner, I dedicate myself to studying and actively practicing trading and investments, nurturing my profound interest in the dynamic and ever-evolving finance industry."
           link="https://www.tradingview.com/u/kulaizkii/"
         />
         <InfoCard
-          img="./src/assets/linked-list.png"
+          img="./src/assets/c-programming.png"
           title="C programming"
-          description="Given the prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through hands-on experience."
+          description="Given the widespread prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through extensive hands-on experience."
           link="https://github.com/kulaizki/BSCS1"
         />
       </div>
