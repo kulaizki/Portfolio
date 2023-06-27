@@ -1,7 +1,7 @@
-import './App.css';
-import Header from './components/layout/Header';
-import Intro from './components/intro/Intro';
-import Skills from './components/skills/Skills';
+import "./App.css";
+import Header from "./components/layout/Header";
+import Intro from "./components/intro/Intro";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Skills />
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
