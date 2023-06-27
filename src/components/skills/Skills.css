@@ -1,30 +1,46 @@
 .Skills {
-    display: flex;
-    flex-direction: column;
-    padding: 72px 0 72px 72px;
+  display: flex;
+  flex-direction: column;
+  padding: 72px 0 72px 0;
 }
 
 .Skills h1 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .Skills__header {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .Skills__header img {
-    width: 48px;
+  width: 48px;
 }
 
 .Skills__header svg {
-    width: 24px;
+  width: 24px;
 }
 
 .Skills__cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: minmax(0, auto);
-    padding: 72px 0 72px 72px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(0, auto);
+  gap: 48px;
+  padding: 72px;
+  justify-items: start;
+}
+
+@media screen and (max-width: 768px) {
+  .Skills__cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+/* Media Query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  .Skills {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

@@ -5,7 +5,7 @@ function Skills() {
   return (
     <div className="Skills">
       <div className="Skills__header">
-        <img src="./public/yellow-diamond.png" alt="" />
+        <img src="/yellow-diamond.png" alt="" />
         <h1>Skills and Experience</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,28 +24,28 @@ function Skills() {
       </div>
       <div className="Skills__cards">
         <InfoCard
-          img="./src/assets/invokerBG.jpg"
+          img="./src/assets/encrusted-lock.png"
           title="Competitive Programming"
-          description="Lorem ipsum asdsad sadsad"
+          description="I have a passion for problem-solving, which led me to pursue competitive programming as a hobby. I'm proud to share that I recently achieved a significant milestone by qualifying for the UP-ACM Algolympics 2023 Finals."
           link="https://github.com/kulaizki/Codeforces"
         />
         <InfoCard
-          img="./src/assets/invokerBG.jpg"
-          title="Competitive Programming"
-          description="Lorem ipsum asdsad sadsad"
-          link=""
+          img="./src/assets/izk-landing-page.png"
+          title="Web Development"
+          description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
+          link="https://github.com/kulaizki?tab=repositories"
         />
         <InfoCard
-          img="./src/assets/invokerBG.jpg"
-          title="Competitive Programming"
-          description="Lorem ipsum asdsad sadsad"
-          link=""
+          img="./src/assets/harmonic-chart.png"
+          title="Trading / Investments"
+          description="As an avid learner, I actively study and practice trading and investments, fueling my passion for the finance industry."
+          link="https://www.tradingview.com/u/kulaizkii/"
         />
         <InfoCard
-          img="./src/assets/invokerBG.jpg"
-          title="Competitive Programming"
-          description="Lorem ipsum asdsad sadsad"
-          link=""
+          img="./src/assets/linked-list.png"
+          title="C programming"
+          description="Given the prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through hands-on experience."
+          link="https://github.com/kulaizki/BSCS1"
         />
       </div>
     </div>

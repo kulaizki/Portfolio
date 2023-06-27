@@ -1,65 +1,68 @@
 .Intro {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    padding: 72px 0 72px 0;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  padding: 72px 0;
 }
 
 .Intro__text p {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .Intro__img > img {
-    width: 48rem;
+  width: 100%;
+  max-width: 48rem;
 }
 
 .Intro__text {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 0 32px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 32px 0 0;
 }
 
 .Intro__underline__animation__1 {
-    position: relative;
-    font-family: monospace;
+  position: relative;
+  font-family: monospace;
 }
 
 .Intro__underline__animation__1:hover {
-    text-shadow: 0 0 8px var(--tertiary);
-    cursor: pointer;
+  text-shadow: 0 0 8px var(--tertiary);
+  cursor: pointer;
 }
 
 .Intro__underline__animation__1::after {
-    background: var(--tertiary);
+  background: var(--tertiary);
 }
 
 .Intro__underline__animation__2 {
-    position: relative;
-    color: rgb(247, 210, 0);
-    text-shadow: 0 0 8px var(--primary-alt);
-    cursor: pointer;
+  position: relative;
+  color: rgb(247, 210, 0);
+  text-shadow: 0 0 8px var(--primary-alt);
+  cursor: pointer;
 }
 
 .Intro__underline__animation__2::after {
-    background: var(--primary-alt);
+  background: var(--primary-alt);
 }
 
 .Intro__underline__animation__3 {
-    position: relative;
+  position: relative;
 }
 
 .Intro__underline__animation__3:hover {
-    text-shadow: 0 0 8px var(--secondary);
-    cursor: pointer;
+  text-shadow: 0 0 8px var(--secondary);
+  cursor: pointer;
 }
 
 .Intro__underline__animation__3::after {
-    background: var(--secondary);
+  background: var(--secondary);
 }
 
-.Intro__underline__animation__1::after, .Intro__underline__animation__2::after, .Intro__underline__animation__3::after {
-  content: '';
+.Intro__underline__animation__1::after,
+.Intro__underline__animation__2::after,
+.Intro__underline__animation__3::after {
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
@@ -70,6 +73,35 @@
   transform: scaleX(0);
 }
 
-.Intro__underline__animation__1:hover::after, .Intro__underline__animation__2:hover::after, .Intro__underline__animation__3:hover::after {
+.Intro__underline__animation__1:hover::after,
+.Intro__underline__animation__2:hover::after,
+.Intro__underline__animation__3:hover::after {
   transform: scaleX(1);
+}
+
+@media screen and (min-width: 768px) {
+  .Intro {
+    padding: 72px 0;
+  }
+
+  .Intro__img > img {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Intro {
+    padding: 48px 0;
+    text-align: center;
+  }
+
+  .Intro__text {
+    padding: 0;
+  }
+
+  .Intro__underline__animation__1,
+  .Intro__underline__animation__2,
+  .Intro__underline__animation__3 {
+    text-align: center;
+  }
 }

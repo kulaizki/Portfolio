@@ -2,21 +2,23 @@
     all: unset;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 28rem;
-    border: 2px solid rgb(99, 98, 98);
+    width: 24rem;
     border-radius: 8px;
     overflow: hidden;
     transition: box-shadow 0.3s ease-in-out;
+    transition: border-color 0.3s ease-out;
+    border: 1px solid rgb(68, 68, 68);
 }
 
 .InfoCard:hover {
-    box-shadow: 0 0 32px rgb(92, 92, 92);
+    border-color: var(--primary);
+    box-shadow: 0 0 16px var(--primary-alt);
     cursor: pointer;
 }
 
 .InfoCard img {
     width: 100%;
+    height: 50%;
     object-fit: cover;
 }
 
@@ -25,9 +27,10 @@
     flex-direction: column;
     gap: 24px;
     padding: 32px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .InfoCard__text span {
-    font-size: 14px;
     color: var(--subtext);
 }
