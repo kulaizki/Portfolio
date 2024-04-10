@@ -29,6 +29,10 @@
     text-shadow: 0 0 16px var(--primary-alt);
 }
 
+.Header__copyright {
+  margin-bottom: 8px;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
