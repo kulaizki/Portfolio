@@ -79,9 +79,11 @@
   transform: scaleX(1);
 }
 
+/* Media query for medium-sized screens */
 @media screen and (min-width: 768px) {
   .Intro {
     padding: 72px 0;
+    justify-content: space-between; /* Adjust alignment for larger screens */
   }
 
   .Intro__img > img {
@@ -89,14 +91,19 @@
   }
 }
 
+/* Media query for small-sized screens */
 @media screen and (max-width: 480px) {
   .Intro {
     padding: 48px 0;
+    flex-direction: column; /* Adjust layout for smaller screens */
     text-align: center;
+    align-items: center; /* Center items horizontally */
+    font-size: 1.5rem;
   }
 
   .Intro__text {
     padding: 0;
+    text-align: center;
   }
 
   .Intro__underline__animation__1,

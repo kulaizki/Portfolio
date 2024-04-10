@@ -35,3 +35,19 @@
     padding: 0 32px 32px 32px;
     color: var(--subtext);
 }
+
+@media only screen and (max-width: 768px) {
+    .InfoCard {
+        width: 100%; /* Take full width on smaller screens */
+    }
+
+    .InfoCard__text {
+        padding: 16px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .InfoCard__click {
+        padding: 0 16px 16px 16px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
