@@ -24,12 +24,6 @@ function Skills() {
       </div>
       <div className="Skills__cards">
         <InfoCard
-          img="./src/assets/encrusted-lock.png"
-          title="Competitive Programming"
-          description="I have a passion for problem-solving, which led me to pursue competitive programming as a hobby. I'm proud to share that I recently achieved a significant milestone by qualifying for the UP-ACM Algolympics 2023 Finals."
-          link="https://github.com/kulaizki/Codeforces"
-        />
-        <InfoCard
           img="./src/assets/izk-landing-page.png"
           title="Web Development"
           description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
@@ -40,6 +34,12 @@ function Skills() {
           title="Trading / Investments"
           description="As an enthusiastic and determined learner, I dedicate myself to studying and actively practicing trading and investments, nurturing my profound interest in the dynamic and ever-evolving finance industry."
           link="https://www.tradingview.com/u/kulaizkii/"
+        />
+        <InfoCard
+          img="./src/assets/encrusted-lock.png"
+          title="Competitive Programming"
+          description="I have a passion for problem-solving, which led me to pursue competitive programming as a hobby. I'm proud to share that I recently achieved a significant milestone by qualifying for the UP-ACM Algolympics 2023 Finals."
+          link="https://github.com/kulaizki/Codeforces"
         />
         <InfoCard
           img="./src/assets/c-programming.png"
