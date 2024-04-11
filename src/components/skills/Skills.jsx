@@ -45,7 +45,7 @@ function Skills() {
           img="./src/assets/c-programming.png"
           title="C programming"
           description="Given the widespread prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through extensive hands-on experience."
-          link="https://github.com/kulaizki/BSCS1"
+          link="https://github.com/kulaizki/BSCS2"
         />
       </div>
     </div>
