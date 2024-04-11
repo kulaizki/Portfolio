@@ -12,7 +12,7 @@ function Intro() {
         </h2>
         <h1>
           I am{" "}
-          <span className="Intro__underline__animation__2">Fitz Angelo</span>.
+          <span className="Intro__underline__animation__2">Fitz Angelo</span>
         </h1>
         <p>
           A curious and enthusiastic student who aspires to become a{" "}

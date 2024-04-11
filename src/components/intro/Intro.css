@@ -1,12 +1,13 @@
 .Intro {
   display: flex;
   align-items: center;
+  gap: 2rem;
   font-size: 2rem;
   padding: 72px 0;
 }
 
 .Intro__text p {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .Intro__img > img {
@@ -98,7 +99,7 @@
     flex-direction: column; /* Adjust layout for smaller screens */
     text-align: center;
     align-items: center; /* Center items horizontally */
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .Intro__text {
@@ -106,6 +107,9 @@
     text-align: center;
   }
 
+  .Intro__text p {
+    font-size: 1.6rem;
+  }
   .Intro__underline__animation__1,
   .Intro__underline__animation__2,
   .Intro__underline__animation__3 {
