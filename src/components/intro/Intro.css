@@ -4,6 +4,16 @@
   gap: 2rem;
   font-size: 2rem;
   padding: 72px 0;
+  /* border: 1px solid rgb(200, 255, 0); */
+}
+
+.Intro:hover {
+  /* Styles to apply on hover (including underline animations) */
+  .Intro__underline__animation__1::after,
+  .Intro__underline__animation__2::after,
+  .Intro__underline__animation__3::after {
+    transform: scaleX(1); /* Animate the underline */
+  }
 }
 
 .Intro__text p {
@@ -70,7 +80,7 @@
   bottom: 0;
   left: 0;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-in-out;
   transform: scaleX(0);
 }
 
