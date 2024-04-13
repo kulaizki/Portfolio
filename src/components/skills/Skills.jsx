@@ -24,7 +24,7 @@ function Skills() {
       </div>
       <div className="Skills__cards">
         <InfoCard
-          img="./src/assets/izk-landing-page.png"
+          img="/src/assets/izk-landing-page.png"
           title="Web Development"
           description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
           link="https://github.com/kulaizki?tab=repositories"
