@@ -3,7 +3,13 @@
     align-items: center;
     justify-content: center;
     height: 4rem;
-    background-color: rgb(27, 27, 27);
+    background-color: aliceblue;
     color: gray;
     border-radius: 16px;
+    gap: 1rem;
+}
+
+.Footer img {
+    width: 3rem;
+    border-radius: 1rem;
 }
