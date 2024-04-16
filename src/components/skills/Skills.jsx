@@ -24,6 +24,12 @@ function Skills() {
       </div>
       <div className="Skills__cards">
         <InfoCard
+          img="src/assets/google.webp"
+          title="GDSC Lead"
+          description="I'm the Google Developer Student Clubs Lead 2023-2024 for the University of San Carlos. This role has given me the opportunity to significantly improve my leadership and soft skills and expand my network."
+          link="https://github.com/kulaizki?tab=repositories"
+        />
+        <InfoCard
           img="src/assets/izk-landing-page.png"
           title="Web Development"
           description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
