@@ -27,7 +27,7 @@ function Skills() {
           img="src/assets/google.webp"
           title="GDSC Lead"
           description="I'm the Google Developer Student Clubs Lead 2023-2024 for the University of San Carlos. This role has given me the opportunity to significantly improve my leadership and soft skills and expand my network."
-          link="https://github.com/kulaizki?tab=repositories"
+          link="https://gdsc.community.dev/university-of-san-carlos/"
         />
         <InfoCard
           img="src/assets/izk-landing-page.png"
