@@ -30,6 +30,12 @@ function Skills() {
           link="https://gdsc.community.dev/university-of-san-carlos/"
         />
         <InfoCard
+          img="/Portfolio/src/assets/kali.png"
+          title="Cybersecurity"
+          description="I dabble around with cybersecurity, mainly focusing on ethical hacking and penetration testing. This has exposed me to Linux and opened my eyes as to how vulnerable systems can be."
+          link="https://github.com/kulaizki/Bandit"
+        />
+        <InfoCard
           img="/Portfolio/src/assets/izk-landing-page.png"
           title="Web Development"
           description="I have extensive experience in front-end web development, specializing in creating engaging user interfaces. With a keen eye for design, I take pleasure in crafting visually appealing experiences for users."
@@ -49,7 +55,7 @@ function Skills() {
         />
         <InfoCard
           img="/Portfolio/src/assets/c-programming.png"
-          title="C programming"
+          title="Academic Programming"
           description="Given the widespread prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through extensive hands-on experience."
           link="https://github.com/kulaizki/BSCS2"
         />
