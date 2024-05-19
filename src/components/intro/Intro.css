@@ -21,8 +21,9 @@
 }
 
 .Intro__img > img {
-  width: 100%;
+  width: 80%;
   max-width: 48rem;
+  border-radius: 1rem;
 }
 
 .Intro__text {

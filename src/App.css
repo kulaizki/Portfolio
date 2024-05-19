@@ -10,6 +10,13 @@ hr {
   box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 480px) {
+  .App {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: .8rem;
+  }
+}
 /* * {
   border: 1px solid red;
 } */
