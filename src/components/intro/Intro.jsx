@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="Intro">
       <div className="Intro__img">
-        <img src="./src/assets/intro-img.png" alt="" />
+        <img src="./intro-img.png" alt="" />
       </div>
       <div className="Intro__text">
         <h2>

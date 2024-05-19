@@ -4,10 +4,10 @@ function Footer() {
   return (
     <footer className="Footer">
       <a href="https://www.linkedin.com/in/kulaizki/" target='_blank'>
-        <img src="/src/assets/linkedin-logo.jpg" alt="linkedin" />
+        <img src="./linkedin-logo.jpg" alt="linkedin" />
       </a>
       <a href="https://github.com/kulaizki" target='_blank'>
-        <img src="/src/assets/github-logo.png" alt="github" />  
+        <img src="./github-logo.png" alt="github" />  
       </a>
     </footer>
   );
