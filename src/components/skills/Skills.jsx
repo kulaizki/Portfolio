@@ -1,7 +1,6 @@
 import "./Skills.css";
 import InfoCard from "./InfoCard";
-import { skillsData } from "../../data";
-
+import { SkillsData } from "../../data";
 
 function Skills() {
   return (
@@ -25,7 +24,7 @@ function Skills() {
         </svg>
       </div>
       <div className="Skills__cards">
-        {skillsData.map((skill) => (
+        {SkillsData.map((skill) => (
           <InfoCard
             img={skill.img}
             title={skill.title}
