@@ -7,7 +7,7 @@
 
 hr {
   border-color: rgb(31, 30, 30);
-  box-shadow: 0 0 8px rgb(214, 145, 248);
+  box-shadow: 0 0 8px var(--shadow-primary);
 }
 
 @media screen and (max-width: 480px) {

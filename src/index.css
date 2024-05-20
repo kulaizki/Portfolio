@@ -26,6 +26,7 @@
   --primary-alt: rgb(224, 190, 2);
   --secondary: #00f2ff;
   --tertiary: #77ed09;
+  --shadow-primary: #ce8df7;
 }
 
 * {

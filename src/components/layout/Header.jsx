@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="Header">
       <h1 className="Header__logo">
-        <img src="./yellow-diamond.png" alt="" />
+        <img src="./diamond.png" alt="" />
         <a href="#">Portfolio</a>
       </h1>
       <div className="Header__copyright">Fitz Angelo&nbsp;2024&nbsp;&copy;</div>
