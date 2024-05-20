@@ -50,7 +50,7 @@ function Skills() {
         <InfoCard
           img="./encrusted-lock.png"
           title="Competitive Programming"
-          description="I have a passion for problem-solving, which led me to pursue competitive programming as a hobby. I'm proud to share that I recently achieved a significant milestone by qualifying for the UP-ACM Algolympics 2023 Finals."
+          description="I have a passion for problem-solving, which led me to pursue competitive programming as a hobby. I'm proud to share that I recently achieved a significant milestone by qualifying for the Algolympics 2023 & 2024 Finals."
           link="https://github.com/kulaizki/Codeforces"
         />
         <InfoCard
