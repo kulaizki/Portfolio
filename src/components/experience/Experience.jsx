@@ -4,8 +4,8 @@ import { ExperienceData } from "../../data";
 
 function Experience() {
   return (
-    <div className="Skills">
-      <div className="Skills__header">
+    <div className="Experience">
+      <div className="Experience__header">
         <img src="/diamond.png" alt="" />
         <h1>Experience</h1>
         <svg
@@ -23,7 +23,7 @@ function Experience() {
           />
         </svg>
       </div>
-      <div className="Skills__cards">
+      <div className="Experience__cards">
         {ExperienceData.map((experience) => (
           <InfoCard
             img={experience.img}

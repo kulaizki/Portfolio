@@ -1,28 +1,28 @@
-.Skills {
+.Experience {
   display: flex;
   flex-direction: column;
   padding: 72px 0 72px 0;
 }
 
-.Skills h1 {
+.Experience h1 {
   font-weight: 400;
 }
 
-.Skills__header {
+.Experience__header {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.Skills__header img {
+.Experience__header img {
   width: 48px;
 }
 
-.Skills__header svg {
+.Experience__header svg {
   width: 24px;
 }
 
-.Skills__cards {
+.Experience__cards {
   /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -34,14 +34,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .Skills__cards {
+  .Experience__cards {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
 /* Media Query for screens with a maximum width of 480px */
 @media screen and (max-width: 480px) {
-  .skills {
+  .Experience {
     padding-left: 24px;
     padding-right: 24px;
     font-size: .8rem;
