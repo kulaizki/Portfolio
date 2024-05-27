@@ -33,6 +33,7 @@ export const SkillsData = [
     img: "./c-programming.png",
     title: "Academic Programming",
     description: "Given the widespread prevalence of the C programming language at my university, I naturally developed a keen interest in it and have gained substantial expertise through extensive hands-on experience.",
+    description: "I have been exposed to various programming languages, including C, C++, Java, C#, and JavaScript, through my current academic journey. With that, I have developed a strong foundation in programming concepts.",
     link: "https://github.com/kulaizki/BSCS2",
   },
 ]
