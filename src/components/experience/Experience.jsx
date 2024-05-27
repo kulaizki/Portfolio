@@ -1,13 +1,13 @@
-import "./Skills.css";
+import "./Experience.css";
 import InfoCard from "./InfoCard";
-import { SkillsData } from "../../data";
+import { ExperienceData } from "../../data";
 
-function Skills() {
+function Experience() {
   return (
     <div className="Skills">
       <div className="Skills__header">
         <img src="/diamond.png" alt="" />
-        <h1>Skills</h1>
+        <h1>Experience</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -24,12 +24,12 @@ function Skills() {
         </svg>
       </div>
       <div className="Skills__cards">
-        {SkillsData.map((skill) => (
+        {ExperienceData.map((experience) => (
           <InfoCard
-            img={skill.img}
-            title={skill.title}
-            description={skill.description}
-            link={skill.link}
+            img={experience.img}
+            title={experience.title}
+            description={experience.description}
+            link={experience.link}
           />
         ))}
       </div>
@@ -37,4 +37,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Experience;

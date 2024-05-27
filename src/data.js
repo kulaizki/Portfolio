@@ -1,4 +1,4 @@
-export const SkillsData = [
+export const ExperienceData = [
   {
     img: "./google.webp",
     title: "GDSC Lead",

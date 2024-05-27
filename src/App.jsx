@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/layout/Header";
 import Intro from "./components/intro/Intro";
-import Skills from "./components/skills/Skills";
+import Experience from "./components/experience/Experience";
 import Footer from "./components/layout/Footer";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <main className="Main">
         <Intro />
         <hr />
-        <Skills />
+        <Experience />
       </main>
       <Footer />
     </div>
