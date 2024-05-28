@@ -3,9 +3,6 @@ import "./Intro.css";
 function Intro() {
   return (
     <div className="Intro">
-      <div className="Intro__img">
-        <img src="./fitz-speaker.jpg" alt="" />
-      </div>
       <div className="Intro__text">
         <h2>
           <span className="Intro__underline__animation__1">Hello World!</span>
@@ -21,6 +18,9 @@ function Intro() {
           </span>
           .
         </p>
+      </div>
+      <div className="Intro__img">
+        <img src="./fitz-speaker.jpg" alt="" />
       </div>
     </div>
   );
