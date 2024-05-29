@@ -11,8 +11,8 @@
 }
 
 .InfoCard:hover {
-    border-color: purple;
-    box-shadow: 0 0 32px purple;
+    border-color: var(--secondary);
+    box-shadow: 0 0 16px var(--secondary);
     cursor: pointer;
 }
 
