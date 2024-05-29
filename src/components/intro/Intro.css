@@ -26,7 +26,7 @@
   max-width: 48rem;
   border-radius: 1rem;
   border: 4px solid #121212;
-  box-shadow: 0 0 4px var(--shadow-primary);
+  box-shadow: 0 0 4px var(--secondary);
 }
 
 .Intro__text {
@@ -52,13 +52,14 @@
 
 .Intro__underline__animation__2 {
   position: relative;
-  color: rgb(247, 210, 0);
-  text-shadow: 0 0 8px var(--primary-alt);
+  /* color: var(--shadow-primary); */
+  color: var(--secondary);
+  text-shadow: 0 0 4px var(--secondary);
   cursor: pointer;
 }
 
 .Intro__underline__animation__2::after {
-  background: var(--primary-alt);
+  background: var(--secondary);
 }
 
 .Intro__underline__animation__3 {
@@ -123,7 +124,7 @@
   }
 
   .Intro__text p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .Intro__underline__animation__1,
   .Intro__underline__animation__2,

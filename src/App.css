@@ -12,8 +12,8 @@ hr {
 
 @media screen and (max-width: 480px) {
   .App {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 28px;
+    padding-right: 28px;
     font-size: .8rem;
   }
 }
