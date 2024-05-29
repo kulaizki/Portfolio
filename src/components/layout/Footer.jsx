@@ -4,10 +4,19 @@ function Footer() {
   return (
     <footer className="Footer">
       <a href="https://www.linkedin.com/in/kulaizki/" target='_blank'>
-        <img src="./linkedin-logo.jpg" alt="linkedin" />
+        <img src="./linkedin.png" alt="linkedin" />
       </a>
       <a href="https://github.com/kulaizki" target='_blank'>
-        <img src="./github-logo.png" alt="github" />  
+        <img src="./github.png" alt="github" />  
+      </a>
+      <a href="https://facebook.com/kulaizki" target='_blank'>
+        <img src="./facebook.png" alt="facebook" />  
+      </a>
+      <a href="" target='_blank'>
+        <img src="./discord.png" alt="discord" />  
+      </a>
+      <a href="" target='_blank'>
+        <img src="./telegram.png" alt="telegram" />  
       </a>
     </footer>
   );

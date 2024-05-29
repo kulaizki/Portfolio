@@ -3,12 +3,9 @@
     align-items: center;
     justify-content: center;
     height: 4rem;
-    background-color: aliceblue;
-    border-radius: 16px;
     gap: 1rem;
 }
 
 .Footer img {
-    width: 3rem;
-    border-radius: 1rem;
+    width: 40px;
 }
