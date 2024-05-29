@@ -12,10 +12,10 @@ function Footer() {
       <a href="https://facebook.com/kulaizki" target='_blank'>
         <img src="./facebook.png" alt="facebook" />  
       </a>
-      <a href="" target='_blank'>
+      <a href="https://discord.com/users/295805809479254016" target='_blank'>
         <img src="./discord.png" alt="discord" />  
       </a>
-      <a href="" target='_blank'>
+      <a href="https://t.me/kulaizki" target='_blank'>
         <img src="./telegram.png" alt="telegram" />  
       </a>
     </footer>
