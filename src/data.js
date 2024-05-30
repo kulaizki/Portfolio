@@ -12,7 +12,7 @@ export const ExperienceData = [
   {
     img: "./kali.png",
     title: "Cybersecurity",
-    description: "I dabble around with cybersecurity, mainly focusing on ethical hacking and penetration testing. This has exposed me to Linux and opened my eyes as to how vulnerable systems can be.",
+    description: "I dabble around with cybersecurity, mainly focusing on ethical hacking and penetration testing. This expereience has exposed me to Linux and opened my eyes as to how vulnerable systems can be.",
     link: "https://github.com/kulaizki/Bandit",
   },
   {
