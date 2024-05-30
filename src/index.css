@@ -5,15 +5,16 @@
 } */
 
 @font-face {
-  font-family: 'axiforma';
-  src: url('./fonts/Axiforma-ExtraBold.otf') format('otf'),
+  font-family: 'Axiforma';
+  /* src: url('./fonts/Axiforma-ExtraBold.otf') format('otf'),
        url('./fonts/Axiforma-Bold.otf') format('otf'),
        url('./fonts/Axiforma-Light.otf') format('otf'),
        url('./fonts/Axiforma-Medium.otf') format('otf'),
        url('./fonts/Axiforma-Regular.otf') format('otf'),
-       url('./fonts/Axiforma-SemiBold.otf') format('otf'),
-       url('./fonts/Axiforma-ExtraBold.ttf') format('ttf'),
-       url('./fonts/Axiforma-Bold.ttf') format('ttf'),
+       url('./fonts/Axiforma-SemiBold.otf') format('otf'); */
+
+  src: url('./fonts/Axiforma-ExtraBold.ttf') format('ttf'),
+       url('./fonts/Axiforma-Bold.ttf') format('ttf'),  
        url('./fonts/Axiforma-Light.ttf') format('ttf'),
        url('./fonts/Axiforma-Medium.ttf') format('ttf'),
        url('./fonts/Axiforma-Regular.ttf') format('ttf'),
@@ -24,7 +25,7 @@
 
 :root {
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'axiforma', sans-serif;
+  font-family: 'Axiforma';
   line-height: 1.2;
 
   color-scheme: light dark;
