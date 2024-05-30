@@ -4,9 +4,21 @@
   border: solid 1px red;
 } */
 
+@font-face {
+  font-family: 'axiforma';
+  src: url('./fonts/Axiforma-ExtraBold.otf') format('otf'),
+       url('./fonts/Axiforma-Bold.otf') format('otf'),
+       url('./fonts/Axiforma-Light.otf') format('otf'),
+       url('./fonts/Axiforma-Medium.otf') format('otf'),
+       url('./fonts/Axiforma-Regular.otf') format('otf'),
+       url('./fonts/Axiforma-SemiBold.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: axiforma, sans-serif;
+  font-family: 'axiforma', sans-serif;
   line-height: 1.2;
 
   color-scheme: light dark;
