@@ -1,3 +1,7 @@
+export const SkillsData = [
+
+]
+
 export const ExperienceData = [
   {
     img: "./google.webp",
