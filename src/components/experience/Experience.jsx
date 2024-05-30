@@ -6,7 +6,7 @@ function Experience() {
   return (
     <div className="Experience">
       <div className="Experience__header">
-        <img src="/diamond.png" alt="" />
+        <img src="./diamond.png" alt="" />
         <h1>Experience</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
