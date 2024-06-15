@@ -1,5 +1,4 @@
 import "./Skills.css";
-import InfoCard from "./InfoCard";
 import { SkillsData } from "../../data";
 
 function Skills() {
@@ -22,16 +21,6 @@ function Skills() {
             d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
           />
         </svg>
-      </div>
-      <div className="Skills__cards">
-        {SkillsData.map((skill) => (
-          <InfoCard
-            img={skill.img}
-            title={skill.title}
-            description={skill.description}
-            link={skill.link}
-          />
-        ))}
       </div>
     </div>
   );
