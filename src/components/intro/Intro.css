@@ -1,17 +1,32 @@
 .Intro {
   display: flex;
   align-items: center;
+  gap: 2rem;
   font-size: 2rem;
   padding: 72px 0;
+  margin: 2rem 0 2rem 0;
+  /* border: 1px solid rgb(200, 255, 0); */
+}
+
+.Intro:hover {
+  /* Styles to apply on hover (including underline animations) */
+  .Intro__underline__animation__1::after,
+  .Intro__underline__animation__2::after,
+  .Intro__underline__animation__3::after {
+    transform: scaleX(1); /* Animate the underline */
+  }
 }
 
 .Intro__text p {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .Intro__img > img {
-  width: 100%;
+  width: 90%;
   max-width: 48rem;
+  border-radius: 1rem;
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 16px var(--secondary);
 }
 
 .Intro__text {
@@ -23,36 +38,25 @@
 
 .Intro__underline__animation__1 {
   position: relative;
-  font-family: monospace;
-}
-
-.Intro__underline__animation__1:hover {
-  text-shadow: 0 0 8px var(--tertiary);
-  cursor: pointer;
+  /* font-family: monospace; */
 }
 
 .Intro__underline__animation__1::after {
-  background: var(--tertiary);
+  background: var(--secondary);
 }
 
 .Intro__underline__animation__2 {
   position: relative;
-  color: rgb(247, 210, 0);
-  text-shadow: 0 0 8px var(--primary-alt);
-  cursor: pointer;
+  color: var(--secondary);
+  text-shadow: 0 0 4px var(--secondary);
 }
 
 .Intro__underline__animation__2::after {
-  background: var(--primary-alt);
+  background: var(--secondary);
 }
 
 .Intro__underline__animation__3 {
   position: relative;
-}
-
-.Intro__underline__animation__3:hover {
-  text-shadow: 0 0 8px var(--secondary);
-  cursor: pointer;
 }
 
 .Intro__underline__animation__3::after {
@@ -69,7 +73,7 @@
   bottom: 0;
   left: 0;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-in-out;
   transform: scaleX(0);
 }
 
@@ -79,9 +83,11 @@
   transform: scaleX(1);
 }
 
+/* Media query for medium-sized screens */
 @media screen and (min-width: 768px) {
   .Intro {
     padding: 72px 0;
+    justify-content: space-between; /* Adjust alignment for larger screens */
   }
 
   .Intro__img > img {
@@ -89,16 +95,25 @@
   }
 }
 
+/* Media query for small-sized screens */
 @media screen and (max-width: 480px) {
   .Intro {
-    padding: 48px 0;
+    padding: 32px 0;
+    flex-direction: column; /* Adjust layout for smaller screens */
     text-align: center;
+    align-items: center; /* Center items horizontally */
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
   }
 
   .Intro__text {
     padding: 0;
+    text-align: center;
   }
 
+  .Intro__text p {
+    font-size: 1.4rem;
+  }
   .Intro__underline__animation__1,
   .Intro__underline__animation__2,
   .Intro__underline__animation__3 {

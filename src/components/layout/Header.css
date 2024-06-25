@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     padding: 0 0 8px 0;
+    gap: 4px;
 }
 
 .Header__logo > img {
@@ -27,6 +28,10 @@
 .Header__logo > a:hover {
     color: var(--primary);
     text-shadow: 0 0 16px var(--primary-alt);
+}
+
+.Header__copyright {
+  margin-bottom: 8px;
 }
 
 /* .logo {

@@ -1,7 +1,9 @@
 import "./App.css";
 import Header from "./components/layout/Header";
-import Intro from "./components/intro/Intro";
 import Skills from "./components/skills/Skills";
+import Intro from "./components/intro/Intro";
+import Experience from "./components/experience/Experience";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Intro />
         <hr />
         <Skills />
+        <Experience />
       </main>
+      <Footer />
     </div>
   );
 }

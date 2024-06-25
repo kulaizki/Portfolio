@@ -1,0 +1,59 @@
+.InfoCard {
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 24rem;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-out; 
+    border: 1px solid rgb(68, 68, 68);
+}
+
+.InfoCard:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 0 16px var(--secondary);
+    cursor: pointer;
+}
+
+.InfoCard img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.InfoCard__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.InfoCard__click {
+    font-size: 14px;
+    padding: 0 32px 32px 32px;
+    color: var(--subtext);
+}
+
+@media only screen and (max-width: 768px) {
+    .InfoCard {
+        width: 100%; /* Take full width on smaller screens */
+    }
+
+    .InfoCard__text {
+        padding: 16px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .InfoCard__click {
+        padding: 0 16px 16px 16px; /* Adjust padding for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .InfoCard {
+    font-size: .8rem;
+  }
+}

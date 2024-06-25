@@ -1,11 +1,22 @@
 .App {
   height: 100%;
-  padding: 24px 48px;
+  padding: 24px 64px;
   overflow-x: hidden;
   place-items: center;
 }
 
 hr {
   border-color: rgb(31, 30, 30);
-  box-shadow: 0 0 8px rgb(255, 255, 255);
+  box-shadow: 0 0 8px var(--shadow-primary);
 }
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: .8rem;
+  }
+}
+/* * {
+  border: 1px solid red;
+} */

@@ -1,12 +1,17 @@
 import "./Skills.css";
-import InfoCard from "./InfoCard";
+import { SkillsData } from "../../data";
 
 function Skills() {
   return (
     <div className="Skills">
       <div className="Skills__header">
+<<<<<<< HEAD
         <img src="./yellow-diamond.png" alt="" />
         <h1>Skills and Experience</h1>
+=======
+        <img src="/diamond.png" alt="" />
+        <h1>Skills</h1>
+>>>>>>> 1d876cf7c84b90644535008012058d7766c3d775
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -22,6 +27,7 @@ function Skills() {
           />
         </svg>
       </div>
+<<<<<<< HEAD
       <div className="Skills__cards">
         <InfoCard
           img="./encrusted-lock.png"
@@ -48,8 +54,11 @@ function Skills() {
           link="https://github.com/kulaizki/BSCS1"
         />
       </div>
+=======
+>>>>>>> 1d876cf7c84b90644535008012058d7766c3d775
     </div>
   );
 }
 
 export default Skills;
+
